@@ -6,6 +6,28 @@ Oie gente sejam bem vindos a mais um vídeo aqui do canal, eu sou a Rafaella Bal
 
 No [vídeo anterior](https://www.youtube.com/watch?v=DqTITcMq68k) eu expliquei os conceitos de alguns termos técnicos que utilizamos quando estamos usando o git, então [nesse vídeo](https://www.youtube.com/watch?v=UBAX-13g8OM) vou mostrar na prática como isso acontece.
 
+## Comandos que podem ser úteis:
+
+* git init (inicializa o git)
+* git status (vê o que tem no git)
+* git branch -m nome_antigo nome_novo (muda o nome da branch)
+* git remote add origin senha_ssh_do_respositório_do_git (adiciona a senha SSH presente no meu git)
+* git config --global user.email "email_do_git" (põe o email usado para acesso no github)
+* git config --global user.name "meu_nome" (põe um nome)
+* git add arquivos_para_commit (adiciona os aerquivos que devem ser commited)
+* git commit -m "cometario_commit" (faz o commit)
+* git push -u origin main (empurra os arquivos adicionados para a branch "main" no github usando a senha SSH dada)
+* git checkout "nome-da-branch" (muda para a branch que foi escrita no comando) 
+* git rm "nome do arquivo" (remove arquivo do giit hub, depois desse comenado tem q fazer git commit e dps git push)
+
+* ssh-keygen -t ed25519 -C "caroline.grupe@usp.br" (gera uma senha SSH que deve ser colocada no github)
+(o terminal fala onde ficou salvo a senha e tem q ir pra lá com cd)
+* cd "local da senha"
+* cat "nome da senha.pub"
+(copia e cola no meu github: Settings ->  SSH e GPG Keys)
+
+* Para dar o "make" e rodar o Makefile tem que instalar o comando make e colocar no PATH do pc
+
 ## Instalando o GIT
 
 * [Link com os downloads](https://git-scm.com/downloads)
